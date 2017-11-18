@@ -2,11 +2,11 @@
 
 
 def reverse_each_word(sentence)
-  words = sentence.split
 
-  reverse = words.collect do |word|
-    word.reverse!
+  words = sentence.split
+  reversal = words.collect do |word|
+    word.reversal!
   end
-  reverse.join(" ")
+  reversal.join(" ")
 
 end
